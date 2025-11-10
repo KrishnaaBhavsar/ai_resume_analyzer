@@ -33,6 +33,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+        <script src="https://js.puter.com/v2/"></script>
+{/* by adding this all the api becomes open to use meaning if i write window.puter. all the option are clearly available  */}
+
         {children}
         <ScrollRestoration />
         <Scripts />
